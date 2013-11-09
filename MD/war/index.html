@@ -1,0 +1,573 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<!-- Insert to your webpage before the </head> -->
+
+<!-- End of head section HTML codes -->
+<title>MD AUTOMATIONS</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="shortcut icon" href="images/FAVICON.png">
+<link
+	href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800"
+	rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/actions.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic">
+<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+<script src="sliderengine/jquery.js"></script>
+<script src="sliderengine/amazingslider.js"></script>
+<script src="sliderengine/initslider-1.js"></script>
+<script src="js/jquery.dropotron-1.3.js"></script>
+<link rel="stylesheet" href="css/reset.css" />
+<script src="http://malsup.github.com/jquery.form.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-ui.min.js"></script>
+<script src="js/animateText.js"></script>
+<noscript>
+	<link rel="stylesheet" href="css/skel-noscript.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<link rel="stylesheet" href="css/style-desktop.css" />
+</noscript>
+</head>
+<script>
+	$(document).ready(function() {
+		var textObjects = [
+		// 	        {
+		// 	            offset: 0,
+		// 	            duration: 4000,
+		// 	            animation: 'leftToright'
+		// 	        },
+		// 	        {
+		// 	            offset: 1000,
+		// 	            duration: 4000,
+		// 	            animation: 'rightToLeft'
+		// 	        },
+		{
+			offset : 1000,
+			duration : 4000,
+			animation : 'implode'
+		} ], options = {
+			repeat : 150
+		}, animations = {
+			topToBottom : {
+				positions : {
+					start : {
+						bottom : '100%',
+						left : '60%',
+					},
+					1 : {
+						bottom : '0%'
+					}
+				}
+			}
+		};
+		$("#animated").animateText(textObjects, options, animations);
+	});
+</script>
+<body class="homepage">
+
+	<!-- Header Wrapper -->
+	<div id="header-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="12u">
+
+					<!-- Header -->
+					<header id="header">
+						<div class="inner"
+							style="margin-top: -64px; width: 1229px; margin-left: -26px; height: 62px; position:fixed; z-index:2000; background-color: rgb(88, 81, 81);" >
+
+							<!-- Logo -->
+							<span><img src="images/capturer.png"
+								style="height: 65px; width: 91px" margin-top="-9px; " alt="" /></span>
+							<h1>
+								<a href="#" id="logo"><span class="image image-full"
+									style="color: rgb(255, 255, 255); margin-left: 50px; font-style: inherit; margin-top: 7px; font-family: inherit; font-size: 20PX; font-weight: 200;">MD
+										AUTOMATIONS 
+								</span></a>
+							</h1>
+
+
+							<!-- Nav -->
+							<nav id="nav"
+								style="font-family: inherit; font-weight: 200; font-size: 14px; font-style: normal; font-stretch: extra-expanded;">
+								<ul>
+									<li style="white-space: nowrap;"><a href="index.html">Home</a></li>
+									<li style="white-space: nowrap;"><a
+										href="left-sidebar.html">About Us</a></li>
+									<li
+										style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;"
+										class="opener"><span>Services</span>
+										<ul
+											style="-webkit-user-select: none; position: absolute; z-index: 1000; left: 270.9090576171875px; top: 63px; opacity: 1; display: block;"
+											class="dropotron dropotron-level-0">
+											<li
+												style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;"
+												class="opener"><span>IEEE Projects</span>
+												<ul
+													style="-webkit-user-select: none; position: absolute; z-index: 1001; left: 237px; top: -2.9090957641601563px; opacity: 1; display: none;"
+													class="dropotron dropotron-level-1">
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">ECE</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">EEE</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">CSE &amp; IT</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">INSTRUMENTATION AND CONTROL</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">BIO-TECHNOLOGY</a></li>
+												</ul></li>
+											<li
+												style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;"
+												class="opener"><span>Research and Development</span>
+												<ul
+													style="-webkit-user-select: none; position: absolute; z-index: 1001; left: 237px; top: 29.81817626953125px; opacity: 1; display: none;"
+													class="dropotron dropotron-level-1">
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">EMBEDDED SYSTEMS</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">MICRO CONTROLLER</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">PIC CONTROLLER</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">ARM CONTROLLER</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">CAN CONTROLLER</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">IMAGE PROCESSING</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">SPEECH PROCESSING</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">ROBOTICS</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">BIO-MEDICAL AND ENGINEERING</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">VLSI</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">POWER ELECTRONICS</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">RFID AND ZIGBEE</a></li>
+
+												</ul></li>
+											<li
+												style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;"
+												class="opener"><span>Computer Science and
+													Networking</span>
+												<ul
+													style="-webkit-user-select: none; position: absolute; z-index: 1001; left: 237px; top: 62.54545593261719px; opacity: 1; display: none;"
+													class="dropotron dropotron-level-1">
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">Web Applications Development</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">Network Simulations (NS 2
+															&amp; 3 )</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">JIST</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">Google App Engine</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">Windows Azure</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">Microsoft .NET(C#,ASP,VB)</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">Cloud Computing</a></li>
+													<li style="white-space: nowrap;"><a href="#"
+														style="display: block;">Data Mining</a></li>
+												</ul></li>
+										</ul></li>
+									<!-- 							====================================================================================== -->
+
+									<li
+										style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;"
+										class="opener"><span>Mou</span>
+										<ul
+											style="-webkit-user-select: none; position: absolute; z-index: 1000; left: 456.3636169433594px; top: 58px; opacity: 1; display: none;"
+											class="dropotron dropotron-level-0">
+											<li style="white-space: nowrap;"><span>Our
+													Educational Partners</span></li>
+											<li style="white-space: nowrap;"><span>Business
+													Partners</span></li>
+											<li style="white-space: nowrap;"><span>Our
+													Engineering</span></li>
+
+										</ul></li>
+									<!-- 													====================================================================================== -->
+
+									<li style="white-space: nowrap;"><a href="no-sidebar.html">Contact
+											Us</a></li>
+								</ul>
+							</nav>
+
+						</div>
+					</header>
+
+					<!-- Banner -->
+					<span><img src="images/Capturer.png" alt="" style="margin-top: 86px; margin-left: 73px;height: 300px;width: 366px;"></span>
+					<div id="banner" style="margin-top: -374px;margin-left: 169px;">
+						<h2>
+							<span
+								style="margin-left: -281px; font-family: inherit; font-size: 68px; font-style: initial; font-style: inherit; font-weight: 200;">Hi!
+								It's</span><br />
+							<ul id="animated"
+								style="color: rgb(24, 16, 16); font-size: 30px;">
+								<li><a href="http://mdautomations.in"
+									style="font-size: 55px; margin-left: 186px; margin-top: 10px; font-family: inherit; font-weight: 200; font-variant: small-caps; letter-spacing: 0.05em; font-stretch: extra-expanded;">
+										MD Automations and Controls </a>
+									<p
+										style="margin-top: 17px; margin-left: 363px; font-size: 15px;">We
+										innovate everything :-)</p></li>
+							</ul>
+							<a href="#"
+								class="button button-big button-icon button-icon-check"
+								style="margin-left: 672px; font-size: 15px; margin-top: -135px; font-family: inherit; font-style: inherit; font-weight: 400;">Know
+								What we do</a>
+						</h2>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Main Wrapper -->
+	<div id="main-wrapper">
+		<div class="main-wrapper-style1">
+			<div class="inner">
+
+				<!-- Feature 1 -->
+				<section class="container box-feature1">
+					<div class="row">
+						<div class="12u">
+							<header class="first major">
+								<h2>So What this is all about ?</h2>
+								<span class="byline">And this is where we talk about why
+									we’re <strong>pretty awesome</strong> ...
+								</span>
+							</header>
+						</div>
+					</div>
+
+
+					<span id="imageSlider">
+						<h2
+							style="font-weight: 300; font-family: inherit; font-style: inherit; font-size: xx-large;">At
+							MD Automations, We Create Amazing.</h2>
+						<div style="margin: 30px auto; max-width: 1000px;">
+							<!-- Insert to your webpage where you want to display the slider -->
+							<div id="amazingslider-1"
+								style="display: block; position: relative; margin: 16px auto 48px;">
+								<ul class="amazingslider-slides" style="display: none;">
+									<li><img src="images/1.jpg" /></li>
+									<li><img src="images/3.jpg" /></li>
+									<li><img src="images/7.jpg" /></li>
+									<li><img src="images/3732535736_c329e32923_o.png" /></li>
+									<li><img src="images/5.jpg" /></li>
+									<li><img src="images/6.jpg" /></li>
+									<li><img src="images/BANNER.png" /></li>
+								</ul>
+								<ul class="amazingslider-thumbnails" style="display: none;">
+									<li><img src="images/1-tn.jpg" /></li>
+									<li><img src="images/3-tn.jpg" /></li>
+									<li><img src="images/7-tn.jpg" /></li>
+									<li><img src="images/3732535736_c329e32923_o-tn.png" /></li>
+									<li><img src="images/5-tn.jpg" /></li>
+									<li><img src="images/6-tn.jpg" /></li>
+									<li><img src="images/BANNER-tn.png" /></li>
+								</ul>
+								<!--         <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com">jQuery Image Slider</a></div> -->
+							</div>
+							<!-- End of body section HTML codes -->
+						</div>
+					</span> </br> </br> </br>
+					<!-- 								<div class="row"> -->
+					<!-- 									<div class="4u"> -->
+					<!-- 										<section> -->
+					<!-- 											<span class="image image-full"><img src="images/pic01.jpg" alt="" /></span> -->
+					<!-- 											<header class="second second-friends"> -->
+					<!-- 												<h3>OMFG Whats That</h3> -->
+					<!-- 												<span class="byline">Nevermind its just a wall lol</span> -->
+					<!-- 											</header> -->
+					<!-- 										</section> -->
+					<!-- 									</div> -->
+					<!-- 									<div class="4u"> -->
+					<!-- 										<section> -->
+					<!-- 											<span class="image image-full"><img src="images/pic02.jpg" alt="" /></span> -->
+					<!-- 											<header class="second second-gear"> -->
+					<!-- 												<h3>Really Close Up</h3> -->
+					<!-- 												<span class="byline">This looks pretty harmless</span> -->
+					<!-- 											</header> -->
+					<!-- 										</section> -->
+					<!-- 									</div> -->
+					<!-- 									<div class="4u"> -->
+					<!-- 										<section> -->
+					<!-- 											<span class="image image-full"><img src="images/pic03.jpg" alt="" /></span> -->
+					<!-- 											<header class="second second-chart"> -->
+					<!-- 												<h3>Pretty Blue LEDs</h3> -->
+					<!-- 												<span class="byline">Just so many of them man</span> -->
+					<!-- 											</header> -->
+					<!-- 										</section> -->
+					<!-- 									</div> -->
+					<!-- 								</div> -->
+					<div class="row">
+						<div class="12u">
+							<p>Phasellus quam turpis, feugiat sit amet ornare in,
+								hendrerit in lectus. Praesent semper bibendum ipsum, et
+								tristique augue fringilla eu. Vivamus id risus vel dolor auctor
+								euismod quis eget mi. Etiam eu ante risus. Aliquam erat
+								volutpat. Aliquam luctus mattis lectus sit amet pulvinar. Nam
+								nec turpis.</p>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
+		<div class="main-wrapper-style2">
+			<div class="inner">
+
+				<!-- Feature 2 -->
+				<section class="container box-feature2">
+					<div class="row">
+						<div class="6u">
+							<section class="pad-right">
+								<header class="major">
+									<h2>We make Engineers</h2>
+									<span class="byline">Looking for Your Final Year
+										Projects?</span>
+								</header>
+								<p>We provide the best support</p>
+								<footer>
+									<a href="#"
+										class="button button-medium button-icon button-icon-rarrow">Get
+										Your Titles</a>
+								</footer>
+							</section>
+						</div>
+
+						<span id="titleimg"><img src="images/webdeve.jpg" alt=""
+							style="width: 263px; height: 200px; float: left; margin-left: -10px; margin-top: -77px; border-radius: 28px;"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+						<span id=description>We are committed to developing robust
+							applications that creates efficient business processes and adds
+							value to our customers' businesses.</span> </br>
+						</br>
+						</br>
+						</br> <span id="desc" style="margin-left: -403px;"><strong><b>Web
+									applications development</b></strong></span> </br>
+						<!-- 									<span id="titleimg"><img src="images/soldering.png" alt="" style="height: 200px;width: 263px;float:left; margin-left: -8px;margin-top: 30px;border-radius: 28px;"></span> </br></br></br> </br></br></br> </br></br></br></br>  -->
+						<!-- 									<span id="desc" style=" margin-left: 196px;">R&D</span> -->
+						</br>
+						</br>
+						</br> <span id="titleimg"><img src="images/webdeve.jpg" alt=""
+							style="width: 263px; height: 200px; float: left; margin-left: -10px; margin-top: -77px; border-radius: 28px;"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+						<span id=description>We are committed to developing robust
+							applications that creates efficient business processes and adds
+							value to our customers' businesses.</span> </br>
+						</br>
+						</br>
+						</br> <span id="desc" style="margin-left: 175px;"><strong>Web
+								applications development</strong></span>
+						<!-- 									 </br></br></br> -->
+						<!-- 									 <span id="titleimg"><img src="images/webdeve.jpg" alt="" style=" width: 263px; height: 200px; float:left; margin-left: -10px; margin-top: -77px;border-radius: 28px;"></span>&nbsp;&nbsp;&nbsp;&nbsp; -->
+						<!-- 									<span id=description>We are committed to developing robust applications that creates efficient business processes and adds value to our customers' businesses.</span> </br></br></br></br> -->
+						<!-- 									<span id="desc" style=" margin-left: 175px;">Web applications development</span> -->
+
+						<!-- 										<section class="pad-left"> -->
+						<!-- 											<header class="major"> -->
+						<!-- 												<h2>This is also a subheading</h2> -->
+						<!-- 												<span class="byline">And is as less important as the other one</span> -->
+						<!-- 											</header> -->
+						<!-- 											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.  -->
+						<!-- 											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.  -->
+						<!-- 											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi  -->
+						<!-- 											consequat etiam.</p> -->
+						<!-- 											<footer> -->
+						<!-- 												<a href="#" class="button button-medium button-alt button-icon button-icon-info">Wait, what?</a> -->
+						<!-- 											</footer> -->
+						<!-- 										</section> -->
+
+					</div>
+				</section>
+
+			</div>
+		</div>
+		<div class="main-wrapper-style3">
+			<div class="inner">
+				<div class="container">
+					<div class="row">
+						<div class="8u">
+
+							<!-- Article list -->
+							<!-- 										<section class="box-article-list"> -->
+							<!-- 											<h2 class="icon icon-news">From the blog</h2> -->
+
+							<!-- 											Excerpt -->
+							<!-- 												<article class="box-excerpt"> -->
+							<!-- 													<a href="#" class="image image-left"><img src="images/pic04.jpg" alt="" /></a> -->
+							<!-- 													<div> -->
+							<!-- 														<header> -->
+							<!-- 															<span class="date">December 20, 2012</span> -->
+							<!-- 															<h3><a href="#">On the eve of the Mayanocalypse</a></h3> -->
+							<!-- 														</header> -->
+							<!-- 														<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus  -->
+							<!-- 														semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,  -->
+							<!-- 														feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p> -->
+							<!-- 													</div> -->
+							<!-- 												</article> -->
+
+							<!-- 											Excerpt -->
+							<!-- 												<article class="box-excerpt"> -->
+							<!-- 													<a href="#" class="image image-left"><img src="images/pic05.jpg" alt="" /></a> -->
+							<!-- 													<div> -->
+							<!-- 														<header> -->
+							<!-- 															<span class="date">December 15, 2012</span> -->
+							<!-- 															<h3><a href="#">Life as a self-aware meme</a></h3> -->
+							<!-- 														</header> -->
+							<!-- 														<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus  -->
+							<!-- 														semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,  -->
+							<!-- 														feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p> -->
+							<!-- 													</div> -->
+							<!-- 												</article> -->
+
+							<!-- 											Excerpt -->
+							<!-- 												<article class="box-excerpt"> -->
+							<!-- 													<a href="#" class="image image-left"><img src="images/pic06.jpg" alt="" /></a> -->
+							<!-- 													<div> -->
+							<!-- 														<header> -->
+							<!-- 															<span class="date">December 12, 2012</span> -->
+							<!-- 															<h3><a href="#">Facepalm moments in history</a></h3> -->
+							<!-- 														</header> -->
+							<!-- 														<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus  -->
+							<!-- 														semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,  -->
+							<!-- 														feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p> -->
+							<!-- 													</div> -->
+							<!-- 												</article> -->
+
+							<!-- 										</section> -->
+							<!-- 								</div> -->
+							<div class="4u">
+
+								<!-- Spotlight -->
+								<!-- 										<section class="box-spotlight pad-left"> -->
+								<!-- 											<h2 class="icon icon-paper">Spotlight</h2> -->
+								<!-- 											<article> -->
+								<!-- 												<a href="#" class="image image-full"><img src="images/pic07.jpg" alt=""></a> -->
+								<!-- 												<header> -->
+								<!-- 													<h3><a href="#">Why staplers matter</a></h3> -->
+								<!-- 													<span class="byline">They hold things together</span> -->
+								<!-- 												</header> -->
+								<!-- 												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod  -->
+								<!-- 												quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam  -->
+								<!-- 												lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed -->
+								<!-- 												et tempus consequat etiam.</p> -->
+								<!-- 												<p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper  -->
+								<!-- 												mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p> -->
+								<!-- 												<footer> -->
+								<!-- 													<a href="#" class="button button-alt button-icon button-icon-paper">Continue Reading</a> -->
+								<!-- 												</footer> -->
+								<!-- 											</article> -->
+								<!-- 										</section> -->
+								<div class="career_form_holder fl">
+									<!-- <form action="" method="get" name="carrer"> -->
+									<form id="register" action="/registerAction" method="post"
+										name="carrer" enctype="multipart/form-data">
+										<div class="career_form_inner_holder">
+											<input id="adpt_fname" name="firstname" type="text"
+												class="input_box text_val_act" value="Your Name"> <input
+												id="adpt_email" name="email" type="text"
+												class="input_box text_val_act" value="Email">
+											<!-- <input id="adpt_blog" name="website" type="text" class="input_box text_val_act" value="Website or profile page" /> -->
+											<input id="hidden_experience" name="experience" type="hidden"
+												value="Less than 1 year"> <input
+												id="hidden_designation" name="designation" type="hidden"
+												value="Designers">
+											<div id="expe_div" class="cust_drop_down">
+												<div class="drop_down_selected expe_div">
+													<b id="experience">Department</b>
+													<code></code>
+												</div>
+												<ul id="expe_ul" class="drop_down_list"
+													style="display: none;">
+
+													<li>ELECTRONICS AND COMMUNICATION</li>
+													<li>ELECTRICAL AND ELECTRONICS ENGINEERING</li>
+													<li>COMPUTER SCIENCE AND IT</li>
+													<li>BIO TECHNOLOGY</li>
+													<li>Others...</li>
+												</ul>
+											</div>
+											<!-- cust_drop_down -->
+
+											<div id="desig_div" class="cust_drop_down">
+												<div class="drop_down_selected desig_div">
+													<b id="designation">Area Of Interest</b>
+													<code></code>
+												</div>
+												<ul id="desig_ul" class="drop_down_list"
+													style="display: none;">
+													<li>EMBEDDED SYSTEMS</li>
+													<li>FPGA</li>
+													<li>IMAGE PROCESSING</li>
+													<li>WIRELESS SENSOR NETWORKS</li>
+													<li>BIO-MEDICAL</li>
+													<li>MICROCONTROLLER</li>
+													<li>RF & MICROWAVE</li>
+												</ul>
+											</div>
+											<!-- cust_drop_down -->
+											<!-- <div id='file_browse_wrapper'><input type='file' id='file_browse' /><span>BROWSE...</span> </div>
+                        <span class="fl">resume.doc </span>   -->
+											<!--                         <div id="file_browse_wrapper" class=""><input type="file" name="file" id="file_browse"><span>Browse</span></div> -->
+											<!--                         <span id="filemessage" class="fl"></span> -->
+											<div class="clear_both"></div>
+
+										</div>
+										<!-- career_form_inner_holder -->
+
+										<span id="error_message" style="display: none;">Sorry,
+											we are experiencing server issues. Please re-submit your
+											resume.</span>
+										<!--                       <span id="loading_img" style="display:none;"><img src="/images/loading.gif"></span> -->
+										<!-- <input id="submitbutton" name="send" type="button" class="send_btn fr" value="SEND!" /> -->
+										<input type="submit" class="send_btn fr" value="Download">
+										<!-- id="submit" name="submit" -->
+										<div class="clear_both"></div>
+									</form>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Wrapper -->
+	<div id="copyrit" style="
+    margin-left: 5;
+    margin-left: 0px;
+    line-height: 61px;
+    background-color: rgb(19, 18, 18);
+"><span style="
+    marker-mid: 50px;
+    margin-left: 463px;
+">
+ 								© MD Automations. All rights reserved. </span>
+ 							</div>
+</body>
+</html>
